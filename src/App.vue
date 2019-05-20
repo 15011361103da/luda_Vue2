@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <big/>
+    <anim/>
   </div>
 </template>
 
@@ -16,6 +16,7 @@ import father from './components/father'
 import father1 from './components/father1'
 import parent from './components/slots/parent'
 import big from './components/comkeep/big'
+import anim from './components/anim/anim'
 
 export default {
   name: 'App',
@@ -29,7 +30,8 @@ export default {
     father,
     father1,
     parent,
-    big
+    big,
+    anim
   }
 }
 </script>
