@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <father1/>
+    <big/>
   </div>
 </template>
 
@@ -14,6 +14,8 @@ import Styles from './components/bindStyle'
 import vforKey from './components/v-for-key'
 import father from './components/father'
 import father1 from './components/father1'
+import parent from './components/slots/parent'
+import big from './components/comkeep/big'
 
 export default {
   name: 'App',
@@ -25,7 +27,9 @@ export default {
     Styles,
     vforKey,
     father,
-    father1
+    father1,
+    parent,
+    big
   }
 }
 </script>
