@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <anim/>
+    <filters/>
   </div>
 </template>
 
@@ -17,6 +17,8 @@ import father1 from './components/father1'
 import parent from './components/slots/parent'
 import big from './components/comkeep/big'
 import anim from './components/anim/anim'
+import directive from './components/directive'
+import filters from './components/filters'
 
 export default {
   name: 'App',
@@ -31,7 +33,9 @@ export default {
     father1,
     parent,
     big,
-    anim
+    anim,
+    directive,
+    filters
   }
 }
 </script>
